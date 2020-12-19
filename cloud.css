@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+header {
+  width: 100%;
+  position: fixed;
+  top: 0%;
+  background-color: whitesmoke;
+  height: 70px;
+}
+nav {
+  border-bottom: 3px solid lightskyblue;
+}
+.logo {
+  display: flex;
+  margin-left: 150px;
+  margin-top: 50px;
+  color: gray;
+  font-style: normal;
+}
+.logo-cloud {
+  height: 25px;
+  margin-left: 15px;
+  margin-top: 20px;
+}
+.liste-navebarre {
+  display: flex;
+  margin-left: 450px;
+  margin-top: -40px;
+}
+.liste-navebarre li {
+  list-style-type: none;
+  margin-left: 60px;
+}
+.liste-navebarre a {
+  text-decoration: none;
+  color: gray;
+}
+.triangle-down {
+  height: 29px;
+  width: 60px;
+  margin-left: 310px;
+  position: absolute;
+  margin-top: -5px;
+}
+.dropdown-content {
+  display: none;
+}
+.dropdown-content li {
+  width: 150px;
+  background-color: whitesmoke;
+  margin-left: 15px;
+  box-shadow: 5px 3px 5px 2px gray;
+}
+.dropdown {
+  position: relative;
+  display: fixed;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+  position: fixed;
+}
